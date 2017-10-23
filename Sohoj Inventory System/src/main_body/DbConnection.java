@@ -37,7 +37,7 @@ import Login.Login_Page;
 		 }
 		 
 		 try{
-			 conn = DriverManager.getConnection("jdbc:mysql://www.sohojweb.com:3306/sohojweb_testingpp","sohojweb_testing","datapass");
+			 conn = DriverManager.getConnection("jdbc:mysql://www.yourdomain.com:3306/DBname","sohojweb_testing","password");
 			 System.out.println("connected");
 			 
 		 }
@@ -68,8 +68,8 @@ import Login.Login_Page;
 		 }
 		 
 		 try{
-			 conn = DriverManager.getConnection("jdbc:mysql://localhost/test","root","");
-			 System.out.println("connected");
+			  conn = DriverManager.getConnection("jdbc:mysql://www.yourdomain.com:3306/DBname","sohojweb_testing","password");
+			System.out.println("connected");
 			 
 		 }
 		 
